@@ -41,7 +41,7 @@ After activating the plugin, you can test your custom API method using the follo
 Use the following example `curl` request to call your custom API method (`pwg.custom_images_info`):
 
 ```bash
-curl -X GET "https://your-piwigo-site/ws.php?method=pwg.custom_images_info&image_ids=1,2,3"
+curl -X GET "https://your-piwigo-site/ws.php?method=pwg.custom.getInfos&image_ids=1,2,3"
 
 - Replace your-piwigo-site with your Piwigo instance URL.
 - This example assumes you have added an API method that fetches image details based on a list of image IDs.
